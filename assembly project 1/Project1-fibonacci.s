@@ -17,7 +17,7 @@ init_fibonacci:
 		ldr r1, =numOne
 		mov r0, #0
 		str r0, [r1]
-		ldr r2, =numTwo
+		ldr r2, =numTwo 
 		mov r0, #1
 		str r0, [r2]
 		ldr r3, =state
